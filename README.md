@@ -19,8 +19,8 @@ Ich aktualisiere diese README täglich: erledigte Themen, praktische Arbeit, Erg
 
 | Tag | Schwerpunkt | Praktisches Ergebnis | Status |
 |---:|---|---|:---:|
-| 1 · 25.11. | Learn Python for Data Science – Full Course for Beginners: aktuellen Lernstand und offene Inhalte festhalten | Kursfortschritt und offene Punkte notiert | [ ] |
-| 2 · 26.11. | Python-Kurs abschließen und wichtigste Inhalte wiederholen | Kurs abgeschlossen; Python-Notizen und Übung aktualisiert | [ ] |
+| 1 · 25.11. | Learn Python for Data Science – Full Course for Beginners: aktuellen Lernstand und offene Inhalte festhalten | Kursfortschritt und offene Punkte notiert | ✅ |
+| 2 · 26.11. | Python-Kurs abschließen und wichtigste Inhalte wiederholen | Kurs abgeschlossen; Python-Notizen und Übung aktualisiert | ✅ |
 | 3 · 27.11. | Start Stanford CS229: überwachte Lernverfahren und lineare Regression | Erstes CS229-Kapitel bearbeitet; Regression nachvollzogen | [ ] |
 | 4 · 28.11. | CS229: Kostenfunktion, Gradientenabstieg und Feature-Skalierung | Lineare Regression selbst implementiert oder nachgerechnet | [ ] |
 | 5 · 29.11. | CS229: logistische Regression und Klassifikation | Klassifikationsmodell trainiert und bewertet | [ ] |
@@ -64,13 +64,13 @@ Die Projekte können an Interessen und verfügbare Daten angepasst werden:
 
 Für jeden Lerntag einen Eintrag ergänzen. Kurz und ehrlich festhalten, was tatsächlich erledigt wurde.
 
-### Tag 2 — Datum: 2026-11-26
+### Lerntage 1–2 — Python-Kurs
 
-- **Themen:**
-- **Umgesetzt:**
-- **Ergebnis / Link:**
-- **Herausforderungen oder offene Fragen:**
-- **Nächster Schritt:**
+- **Themen:** Learn Python for Data Science – Full Course for Beginners
+- **Umgesetzt:** Python-Kurs abgeschlossen
+- **Ergebnis / Quelle:** [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
+- **Herausforderungen oder offene Fragen:** —
+- **Nächster Schritt:** Am 27.11. mit Stanford CS229 beginnen
 
 <!-- Nach jedem Lerntag einen Eintrag ergänzen und das aktuelle Datum eintragen. -->
 
@@ -86,7 +86,11 @@ Für jeden Lerntag einen Eintrag ergänzen. Kurz und ehrlich festhalten, was tat
 
 ## Aktueller Stand
 
-- **Aktueller Lerntag:** 1 / 30
+- **Aktueller Lerntag:** 2 / 30
 - **Zuletzt aktualisiert:** 2026-11-25
-- **Aktueller Fokus:** Learn Python for Data Science – Full Course for Beginners
-- **Nächster Schritt:** Am 26.11. den Python-Kurs abschließen und am 27.11. mit Stanford CS229 beginnen
+- **Aktueller Fokus:** Python-Kurs abgeschlossen
+- **Nächster Schritt:** Am 27.11. mit Stanford CS229 beginnen
+
+## Quellen
+
+- **Tag 1–2:** [freeCodeCamp.org](https://www.youtube.com/@freecodecamp) — *Learn Python for Data Science – Full Course for Beginners*
