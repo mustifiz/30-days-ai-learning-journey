@@ -20,7 +20,7 @@ Ich aktualisiere diese README täglich: erledigte Themen, praktische Arbeit, Erg
 | Tag | Schwerpunkt | Praktisches Ergebnis | Status |
 |---:|---|---|:---:|
 | 1 · 25.11. | Learn Python for Data Science – Full Course for Beginners: aktuellen Lernstand und offene Inhalte festhalten | Kursfortschritt und offene Punkte notiert | ✅ |
-| 2 · 26.11. | Python-Kurs abschließen und wichtigste Inhalte wiederholen | Kurs abgeschlossen; Python-Notizen und Übung aktualisiert | ✅ |
+| 2 · 26.11. | Python-Kurs abschließen und Grundlagen eines Data-Science-Projekts kennenlernen | Kurs abgeschlossen; Projektablauf, Bibliotheken und Statistikgrundlagen dokumentiert | ✅ |
 | 3 · 27.11. | Start Stanford CS229: überwachte Lernverfahren und lineare Regression | Erstes CS229-Kapitel bearbeitet; Regression nachvollzogen | [ ] |
 | 4 · 28.11. | CS229: Kostenfunktion, Gradientenabstieg und Feature-Skalierung | Lineare Regression selbst implementiert oder nachgerechnet | [ ] |
 | 5 · 29.11. | CS229: logistische Regression und Klassifikation | Klassifikationsmodell trainiert und bewertet | [ ] |
@@ -50,6 +50,41 @@ Ich aktualisiere diese README täglich: erledigte Themen, praktische Arbeit, Erg
 | 29 · 23.12. | Abschlussprojekt aus ML, DL, LLM oder Agent weiterentwickeln | Aufgeräumter, nachvollziehbarer Projektstand | [ ] |
 | 30 · 24.12. | Rückblick, Portfolio und nächste Lernphase planen | Ergebnisse, Kursstände und nächste Ziele festgehalten | [ ] |
 
+## Ein Data-Science-Projekt durchführen
+
+Ein Data-Science-Projekt beginnt mit einer klaren Frage und endet mit einer verständlichen, überprüfbaren Antwort. Nicht jedes Projekt braucht ein Machine-Learning-Modell.
+
+1. **Fragestellung und Ziel festlegen:** Eine konkrete, beantwortbare Frage formulieren. Zielgruppe, erwartetes Ergebnis und Erfolgskriterien festhalten.
+2. **Daten verstehen und beschaffen:** Herkunft, Zeitraum, Einheiten, Bedeutung der Spalten und mögliche Einschränkungen prüfen. Datenschutz und Nutzungsrechte beachten.
+3. **Daten prüfen und bereinigen:** Datentypen, fehlende Werte, Duplikate, ungültige Einträge und auffällige Werte untersuchen. Entscheidungen zur Bereinigung dokumentieren, statt Werte unkritisch zu löschen.
+4. **Explorative Datenanalyse (EDA):** Verteilungen, Beziehungen und Unterschiede mit Kennzahlen und Grafiken untersuchen. Dabei auch prüfen, ob die Daten die Fragestellung überhaupt abbilden.
+5. **Statistisch auswerten:** Passende Kennzahlen und Verfahren anhand der Frage und der Daten auswählen. Unsicherheit, Stichprobengröße und mögliche Verzerrungen berücksichtigen.
+6. **Modellieren (nur falls sinnvoll):** Zuerst eine einfache Baseline erstellen, Daten passend aufteilen und ein Modell nur dann einsetzen, wenn es einen Mehrwert gegenüber einer direkten Analyse bietet. Datenleckage vermeiden.
+7. **Ergebnisse bewerten und kommunizieren:** Resultate mit geeigneten Metriken und Visualisierungen erklären, Grenzen benennen und die Ausgangsfrage beantworten.
+8. **Arbeit reproduzierbar machen:** Code, Datenquelle, Abhängigkeiten, Annahmen und Ausführungsschritte festhalten. Sensible oder lizenzbeschränkte Daten nicht ungeprüft veröffentlichen.
+
+### Werkzeuge und Python-Bibliotheken
+
+| Bibliothek / Werkzeug | Typischer Einsatz |
+|---|---|
+| **Jupyter Notebook** | Analyse in nachvollziehbaren Schritten mit Code, Text und Diagrammen |
+| **NumPy** | Numerische Berechnungen und mehrdimensionale Arrays |
+| **pandas** | Tabellen laden, bereinigen, transformieren und zusammenfassen |
+| **Matplotlib / Seaborn** | Diagramme für Verteilungen, Vergleiche und Zusammenhänge |
+| **SciPy** | Wissenschaftliche und statistische Berechnungen |
+| **scikit-learn** | Datenvorbereitung, Baselines, ML-Modelle und Evaluation, falls ein Modell erforderlich ist |
+
+### Statistik-Grundlagen für die Analyse
+
+- **Lage:** Mittelwert, Median und Modus beschreiben typische Werte. Der Median ist bei stark schiefen Verteilungen oder Ausreißern oft aussagekräftiger als der Mittelwert.
+- **Streuung:** Spannweite, Varianz, Standardabweichung und Quartile zeigen, wie unterschiedlich die Werte sind.
+- **Verteilungen und Ausreißer:** Histogramme und Boxplots helfen, Form, Schiefe und ungewöhnliche Werte zu erkennen. Ein Ausreißer ist nicht automatisch ein Fehler.
+- **Zusammenhänge:** Korrelation beschreibt einen statistischen Zusammenhang, beweist aber keine Ursache-Wirkung-Beziehung.
+- **Stichproben und Unsicherheit:** Ergebnisse aus einer Stichprobe sind unsicher. Stichprobengröße und Auswahlverfahren beeinflussen, wie gut sich Ergebnisse verallgemeinern lassen.
+- **Hypothesentests und Konfidenzintervalle:** Können Unterschiede und Unsicherheit quantifizieren; ein p-Wert allein misst weder die Größe noch die praktische Bedeutung eines Effekts.
+
+Die Auswahl von Kennzahlen und Tests hängt von der konkreten Frage, dem Datentyp und den Annahmen des Verfahrens ab. Ergebnisse daher immer zusammen mit ihrer Unsicherheit und den Grenzen der Daten berichten.
+
 ## Projektideen
 
 Die Projekte können an Interessen und verfügbare Daten angepasst werden:
@@ -64,12 +99,12 @@ Die Projekte können an Interessen und verfügbare Daten angepasst werden:
 
 Für jeden Lerntag einen Eintrag ergänzen. Kurz und ehrlich festhalten, was tatsächlich erledigt wurde.
 
-### Lerntage 1–2 — Python-Kurs
+### Lerntage 1–2 — Python- und Data-Science-Grundlagen
 
-- **Themen:** Learn Python for Data Science – Full Course for Beginners
-- **Umgesetzt:** Python-Kurs abgeschlossen
+- **Themen:** Learn Python for Data Science – Full Course for Beginners; Ablauf eines Data-Science-Projekts, wichtige Python-Bibliotheken und grundlegende Statistik
+- **Umgesetzt:** Python-Kurs abgeschlossen; Schritte von der Fragestellung bis zur Kommunikation der Ergebnisse sowie typische Werkzeuge und Statistikbegriffe zusammengefasst
 - **Ergebnis / Quelle:** [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
-- **Herausforderungen oder offene Fragen:** —
+- **Herausforderungen oder offene Fragen:** Geeignete statistische Verfahren müssen abhängig von Fragestellung und Datensatz ausgewählt werden
 - **Nächster Schritt:** Am 27.11. mit Stanford CS229 beginnen
 
 <!-- Nach jedem Lerntag einen Eintrag ergänzen und das aktuelle Datum eintragen. -->
@@ -87,8 +122,8 @@ Für jeden Lerntag einen Eintrag ergänzen. Kurz und ehrlich festhalten, was tat
 ## Aktueller Stand
 
 - **Aktueller Lerntag:** 2 / 30
-- **Zuletzt aktualisiert:** 2026-11-25
-- **Aktueller Fokus:** Python-Kurs abgeschlossen
+- **Zuletzt aktualisiert:** 2026-11-27
+- **Aktueller Fokus:** Python- und Data-Science-Grundlagen abgeschlossen; Projektablauf, Werkzeuge und Statistik dokumentiert
 - **Nächster Schritt:** Am 27.11. mit Stanford CS229 beginnen
 
 ## Quellen
