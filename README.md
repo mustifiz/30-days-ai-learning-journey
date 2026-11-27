@@ -15,6 +15,14 @@ Ich aktualisiere diese README täglich: erledigte Themen, praktische Arbeit, Erg
 - Vorlesungen aktiv bearbeiten: Notizen machen, Konzepte selbst erklären und Code praktisch umsetzen.
 - Wenn ein Thema mehr Zeit braucht, den Plan anpassen statt nur Aufgaben abzuhaken.
 
+## Repository-Struktur
+
+- `data_science/`: Python-Grundlagen, pandas, Datenanalyse, Datenbereinigung, Statistik, Projektvorlage und Datensätze
+- `machine_learning/`: Machine-Learning-Notizen, Übungen und Projekte
+- `deep_learning/`: Deep-Learning-Notizen, Übungen und Projekte
+- `llm/`: LLM-Notizen und Projekte
+- `agent/`: AI-Agent-Notizen und Projekte
+
 ## 30-Tage-Plan (25.11.–24.12.2026)
 
 | Tag | Schwerpunkt | Praktisches Ergebnis | Status |
