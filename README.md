@@ -17,11 +17,11 @@ Ich aktualisiere diese README täglich: erledigte Themen, praktische Arbeit, Erg
 
 ## Repository-Struktur
 
-- `data_science/`: Python-Grundlagen, pandas, Datenanalyse, Datenbereinigung, Statistik, Projektvorlage und Datensätze
-- `machine_learning/`: Machine-Learning-Notizen, Übungen und Projekte
-- `deep_learning/`: Deep-Learning-Notizen, Übungen und Projekte
-- `llm/`: LLM-Notizen und Projekte
-- `agent/`: AI-Agent-Notizen und Projekte
+- `1.data_science/`: Python-Grundlagen, pandas, Datenanalyse, Datenbereinigung, Statistik, Projektvorlage und Datensätze
+- `2.machine_learning/`: Machine-Learning-Notizen, Übungen und Projekte
+- `3.deep_learning/`: Deep-Learning-Notizen, Übungen und Projekte
+- `4.llm/`: LLM-Notizen und Projekte
+- `5.agent/`: AI-Agent-Notizen und Projekte
 
 ## 30-Tage-Plan (25.11.–24.12.2026)
 
